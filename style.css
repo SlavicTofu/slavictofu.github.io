@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: #55586a;
+  color: white;
+  font-weight: 300;
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  transition: all .5s ease;
+}
+h1 {
+  text-decoration: underline;
+}
+.av {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: 2px solid black;
+  background: black;
+}
+.sc {
+  /*color: orange;*/
+  color: #fc682d;
+  text-decoration: none;
+}
+.yt {
+  color: red;
+  text-decoration: none;
+}
+.io {
+  color: rgb(245, 101, 125);
+  text-decoration: none;
+}
+.st {
+  color: rgb(177, 177, 177);
+  text-decoration: none;
+}
+.ig {
+  /*color: coral;*/
+  color: #eba171;
+  text-decoration: none;
+}
+.dc {
+  color: rgb(135, 135, 235);
+  text-decoration: none;
+}
+.pl {
+  color: #4dc7c9;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.bio {
+  width: 50vw;
+}
+.bio:hover {
+  font-weight: 500;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  70% {
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
