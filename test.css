@@ -1,0 +1,11 @@
+@font-face {
+				font-family: PopJoy;
+				src: url(./PopJoy.otf) format("opentype");
+			}
+.testDiv {
+    background-color: white;
+    }
+body {
+		background-image: url('background1.png');
+		font-family: 'PopJoy';
+	}
