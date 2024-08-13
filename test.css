@@ -6,10 +6,23 @@
 			}
 .testDiv {
     background-color: white;
+	border-radius: 20px;
+	margin: auto;
+	text-align: center;
+	padding: 5%;
+	margin: 1%;
     }
 .headingDiv {
 	background-color:aliceblue;
-	border-radius: 10px;
+	width: 600px;
+	padding: 1%;
+	border-radius: 15px;
+	text-align: center;
+	margin: auto;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: 20% 60% 20%;
 }
 body {
 		background-image: url('background.png');
