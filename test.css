@@ -1,11 +1,15 @@
 @font-face {
 				font-family: PopJoy;
-				src: url(./PopJoy.otf) format("opentype");
+				src: url(/fonts/PopJoy.otf) format("opentype");
 			}
 .testDiv {
     background-color: white;
     }
+.headingDiv {
+	background-color:aliceblue;
+	border-radius: 10px;
+}
 body {
-		background-image: url('background1.png');
+		background-image: url('background.png');
 		font-family: 'PopJoy';
 	}
