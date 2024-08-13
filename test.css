@@ -1,6 +1,8 @@
 @font-face {
 				font-family: PopJoy;
 				src: url(/fonts/PopJoy.otf) format("opentype");
+				font-family: Handwriting;
+				src: url(/fonts/MyHandwriting.otf) format("opentype");
 			}
 .testDiv {
     background-color: white;
@@ -11,5 +13,5 @@
 }
 body {
 		background-image: url('background.png');
-		font-family: 'PopJoy';
+		font-family: 'Handwriting';
 	}
