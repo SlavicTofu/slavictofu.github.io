@@ -6,22 +6,83 @@
 			}
 .testDiv {
     background-color: white;
-	border-radius: 20px;
+	border-radius: 5px;
 	text-align: center;
 	margin: 1%;
     }
 .headingDiv {
 	background-color:aliceblue;
 	padding: 1%;
-	border-radius: 15px;
+	border-radius: 5px;
 	text-align: center;
 	margin: auto;
 }
-.grid-container {
+
+#wrapper {
+	position: relative;
 	display: grid;
-	grid-template-columns: 20% 60% 20%;
+	margin: auto;
+	max-width: 1200px;
+	grid-template-areas:
+	"header header header"
+	"updates info nav";
+	grid-template-columns: 20% 65% 15%;
+	gap: 10px;
+	padding: 20px 75px 20px 20px;
 }
+
+#intro {
+	grid-area: info;
+}
+
+nav {
+	grid-area: nav;
+}
+
+header {
+	grid-area: header;
+}
+
 body {
 		background-image: url('background.png');
 		font-family: 'Handwriting';
 	}
+@media only screen and (max-width: 1100px) {
+
+	#current,
+	#updates,
+	#nav {
+		width: auto;
+		height: auto;
+		margin: 0;
+	}
+	#wrapper {
+		grid-template-columns: 25% 50% 25%;
+	}
+}
+@media only screen and (max-width:760px) {
+
+	#current,
+	#updates,
+	#nav {
+		margin: 40px 0px;
+	}
+
+	#nav {
+		text-align: center;
+	}
+
+	#nav a {
+		display: inline-block;
+	}
+
+	#updates {
+		height: 300px;
+	}
+
+	#wrapper {
+		display: block;
+		padding: 0px;
+		margin: 20px;
+	}
+}
