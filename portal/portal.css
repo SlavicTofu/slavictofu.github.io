@@ -1,0 +1,26 @@
+body {
+    background-image: url("./stone.png");
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper {
+	position: relative;
+	display: grid;
+	margin: auto;
+	max-width: 1200px;
+	grid-template-areas:
+	"updates info nav";
+	grid-template-columns: 20% 65% 15%;
+	gap: 10px;
+	padding: 20px 75px 20px 20px;
+}
+
+.portal-container {
+    position: relative;
+}
+
+.open-portal-door {
+    position: absolute;
+    left: 0px;
+}
