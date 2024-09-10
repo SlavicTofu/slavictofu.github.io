@@ -10,18 +10,6 @@ body {
     justify-content: center;
 }
 
-#wrapper {
-	position: relative;
-	display: grid;
-	margin: auto;
-	max-width: 1200px;
-	grid-template-areas:
-	"updates info nav";
-	grid-template-columns: 20% 65% 15%;
-	gap: 10px;
-	padding: 20px 75px 20px 20px;
-}
-
 .portal-container {
     position: relative;
 }
@@ -40,8 +28,23 @@ body {
     background-color: rgb(150, 139, 127);
     border: 1rem solid;
     border-color:rgb(102, 91, 78);
-    padding: 5vh;
-    width: 40vh;
+    padding: 5vw;
+    width: 40vw;
     display: grid;
     margin: auto;
+}
+
+@media only screen and (max-width: 740px) {
+    .form-div {
+        width: 60vw;
+    }
+    .portal-container {
+        scale: 80%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .form-div {
+        width: 80vw;
+    }
 }

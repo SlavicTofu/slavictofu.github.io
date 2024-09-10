@@ -5,7 +5,12 @@ function submitFunction() {
   
     if(searchText.length > 0) {
       document.getElementById("s").value = searchText;
-      form.action = "/" + searchText + "/index.html";
+      switch(searchText) {
+        case "liam":
+          console.log("Going to Liam's Page!");
+        case "Liam":
+          console.log("Going to Liam's Page!");
+      }
       form.submit();
     } else {
       return false;
