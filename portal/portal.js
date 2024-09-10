@@ -7,9 +7,9 @@ function submitFunction() {
       document.getElementById("s").value = searchText;
       switch(searchText) {
         case "liam":
-          console.log("Going to Liam's Page!");
-        case "Liam":
-          console.log("Going to Liam's Page!");
+          form.action = "/people/liam/index.html";
+        case "alex":
+          form.action = "/people/alex/index.html";
       }
       form.submit();
     } else {
