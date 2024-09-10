@@ -4,9 +4,22 @@
         <link rel="stylesheet" href="./portal.css">
     </head>
     <body>
-            <div class="portal-container">
+        <div class="form-div">
+            <h1>Welcome to the Almighty Website Portal...</h1>
+            <p>To give YOU the power, rather than providing you with a sitemap, here is this State Of The Art Door. Simply type in the name of the person whose page you want to see, and if I've had the spare time to add them, they'll be there (maybe.)</p>
+            <h2>Instructions</h2>
+            <ul>
+                <li>Input Name into the box below</li>
+                <li>Click on the door!</li>
+            </ul>
+            <form id="portal-form" method="get">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Name Here!" />
+            </form>
+            <div class="portal-container" onclick="return submitFunction();">
                 <img src="./dungeon_closed.png">
                 <img src="./dungeon_open.png" class="open-portal-door">
             </div>
+        </div>
     </body>
 </html>

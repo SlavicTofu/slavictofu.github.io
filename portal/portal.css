@@ -1,4 +1,10 @@
+@font-face {
+    font-family: Handwriting;
+    src: url(/fonts/MyHandwriting.otf) format("opentype");
+}
+
 body {
+    font-family: Handwriting;
     background-image: url("./stone.png");
     display: flex;
     justify-content: center;
@@ -23,4 +29,14 @@ body {
 .open-portal-door {
     position: absolute;
     left: 0px;
+}
+
+.form-div {
+    background-color: rgb(116, 98, 75);
+    border: 1rem solid;
+    border-color:rgb(39, 29, 16);
+    padding: 5vh;
+    width: 40vh;
+    display: grid;
+    margin: auto;
 }
