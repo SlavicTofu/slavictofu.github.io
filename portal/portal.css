@@ -29,12 +29,17 @@ body {
 .open-portal-door {
     position: absolute;
     left: 0px;
+    opacity: 0;
+}
+
+.open-portal-door:hover {
+    opacity: 1;
 }
 
 .form-div {
-    background-color: rgb(116, 98, 75);
+    background-color: rgb(150, 139, 127);
     border: 1rem solid;
-    border-color:rgb(39, 29, 16);
+    border-color:rgb(102, 91, 78);
     padding: 5vh;
     width: 40vh;
     display: grid;

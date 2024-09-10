@@ -2,19 +2,22 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./portal.css">
+        <script type = "text/javascript" src="portal.js"></script>
     </head>
     <body>
         <div class="form-div">
             <h1>Welcome to the Almighty Website Portal...</h1>
-            <p>To give YOU the power, rather than providing you with a sitemap, here is this State Of The Art Door. Simply type in the name of the person whose page you want to see, and if I've had the spare time to add them, they'll be there (maybe.)</p>
+            <p>To give YOU the power, rather than providing you with a sitemap, here is this State Of The Art....door.</p>
+            <p>Simply type in the name of the person whose page you want to see, and if I've had the spare time to add them, they'll be there (maybe.)</p>
             <h2>Instructions</h2>
             <ul>
-                <li>Input Name into the box below</li>
+                <li>Input the name of the object of your desire into the box below</li>
                 <li>Click on the door!</li>
             </ul>
             <form id="portal-form" method="get">
-                <label for="name"></label>
-                <input type="text" name="name" id="name" placeholder="Name Here!" />
+                <label for="form-search"></label>
+                <input type="text" name="name" id="form-search" placeholder="Name Here!" value=""/>
+                <input type="hidden" id="s" name="query" value="" />
             </form>
             <div class="portal-container" onclick="return submitFunction();">
                 <img src="./dungeon_closed.png">
