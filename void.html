@@ -1,0 +1,55 @@
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(rgb(183, 221, 255), rgb(255, 238, 226));
+        }
+
+        .image-container {
+            position: relative;
+            width: 110vw;
+            max-width: 1500px;
+            aspect-ratio: 1/1;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .text-overlay p, .text-overlay a {
+            position: absolute;
+            font-size: 120%;
+            color: black;
+        }
+
+        .text-overlay p {
+            top: 40%;
+            left: 45%;
+        }
+
+        .text-overlay a {
+            top: 48%;
+            left: 62.2%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="/void.png" alt="Minecraft Island in the Void">
+        <div class="text-overlay">
+            <p>There's nothing here.</p>
+            <a href="/index.html">Back.</a>
+        </div>
+    </div>
+
+</body>
+</html>
