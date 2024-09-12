@@ -7,13 +7,13 @@ function submitFunction() {
       document.getElementById("s").value = searchText;
       switch(searchText.toLowerCase()) {
         case "liam":
-          form.action = "/people/liam/index.html";
+          form.action = "/people/liam/";
           break;
         case "alex":
-          form.action = "/people/alex/index.html";
+          form.action = "/people/alex/";
           break;
         default:
-            form.action = "/void.html";
+            form.action = "/void/";
       }
       form.submit();
     } else {
