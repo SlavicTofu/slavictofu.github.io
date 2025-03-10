@@ -30,6 +30,19 @@
 	padding: 20px 75px 20px 20px;
 }
 
+#personWrapper {
+	position: relative;
+	display: grid;
+	margin: auto;
+	max-width: 1200px;
+	grid-template-areas:
+	"header header"
+	"info nav";
+	grid-template-columns: 85% 15%;
+	gap: 10px;
+	padding: 20px 75px 20px 20px;
+}
+
 #intro {
 	grid-area: info;
 }

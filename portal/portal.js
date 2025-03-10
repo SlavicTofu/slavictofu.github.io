@@ -9,6 +9,9 @@ function submitFunction() {
         case "liam":
           form.action = "/people/liam/";
           break;
+        case "webber":
+          form.action = "/people/liam/";
+          break;
         case "alex":
           form.action = "/people/alex/";
           break;
